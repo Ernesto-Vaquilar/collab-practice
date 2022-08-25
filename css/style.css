@@ -1,3 +1,27 @@
+main{
+    position: relative;
+}
+
+
+li{
+    font-style: italic;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+ 
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: white;
+}
+
+
+
 .test2 {
     color: yellow;
     background-color: blue;
@@ -6,6 +30,7 @@
 .test{
     color: red;
     background-color: black;
+
 }
 
 .nav{ 
@@ -13,7 +38,8 @@
     background-color: rgb(68, 16, 212);
 }
 
-.footer{
-    color: blue;
-    background-color: red;
+footer{
+    position: fixed;
+    bottom: 0%;
+    
 }
